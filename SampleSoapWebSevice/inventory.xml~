@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<queryResponse rootUrl="https://szier-m8-106.cisco.com/webacs/api/v1/data" requestUrl="https://szier-m8-106.cisco.com/webacs/api/v1/data/InventoryDetails/42" responseType="getEntity">
+    <entity url="https://szier-m8-106.cisco.com/webacs/api/v1/data/InventoryDetails/15" type="InventoryDetails" dtoType="inventoryDetailsDTO">
+        <inventoryDetailsDTO id="15" displayName="String value">
+   <summarys>
+         <summary id="15">
+                <ciscoIdentityCapable>true</ciscoIdentityCapable>
+                <contact>infracentral</contact>
+                <deviceId>1</deviceId>
+                <deviceName>server</deviceName>
+                <deviceType>Network</deviceType>
+                <ipAddress>192.168.1.0</ipAddress>
+                <location>infracentral</location>
+                <locationCapable>true</locationCapable>
+                <nrPortsDown>2</nrPortsDown>
+                <nrPortsUp>2</nrPortsUp>
+                <productFamily>Cisco</productFamily>
+                <reachability>MANAGED</reachability>
+                <softwareVersion>2.0</softwareVersion>
+                <systemTime>2014-12-04T10:16:29.549-08:00</systemTime>
+                <upTime>15:00</upTime>
+            </summary>
+             <summary id="12">
+                <ciscoIdentityCapable>true</ciscoIdentityCapable>
+                <contact>infracentral</contact>
+                <deviceId>2</deviceId>
+                <deviceName>sai</deviceName>
+                <deviceType>Node</deviceType>
+                <ipAddress>192.168.1.104</ipAddress>
+                <location>infracentral</location>
+                <locationCapable>true</locationCapable>
+                <nrPortsDown>2</nrPortsDown>
+                <nrPortsUp>2</nrPortsUp>
+                <productFamily>Cisco</productFamily>
+                <reachability>MANAGED</reachability>
+                <softwareVersion>1.0</softwareVersion>
+                <systemTime>2014-12-04T10:16:29.549-08:00</systemTime>
+                <upTime>12:00</upTime>
+            </summary>
+  <summary id="16">
+                <ciscoIdentityCapable>true</ciscoIdentityCapable>
+                <contact>infracentral</contact>
+                <deviceId>2</deviceId>
+                <deviceName>taru</deviceName>
+                <deviceType>Switch</deviceType>
+                <ipAddress>192.168.1.124</ipAddress>
+                <location>infracentral</location>
+                <locationCapable>true</locationCapable>
+                <nrPortsDown>2</nrPortsDown>
+                <nrPortsUp>2</nrPortsUp>
+                <productFamily>Cisco</productFamily>
+                <reachability>MANAGED</reachability>
+                <softwareVersion>1.0</softwareVersion>
+                <systemTime>2014-12-04T10:16:29.549-08:00</systemTime>
+                <upTime>12:00</upTime>
+            </summary>
+  <summary id="17">
+                <ciscoIdentityCapable>false</ciscoIdentityCapable>
+                <contact>infracentral</contact>
+                <deviceId>2</deviceId>
+                <deviceName>sri</deviceName>
+                <deviceType>Switch</deviceType>
+                <ipAddress>192.168.1.123</ipAddress>
+                <location>infracentral</location>
+                <locationCapable>true</locationCapable>
+                <nrPortsDown>2</nrPortsDown>
+                <nrPortsUp>2</nrPortsUp>
+                <productFamily>Cisco</productFamily>
+                <reachability>MANAGED</reachability>
+                <softwareVersion>1.0</softwareVersion>
+                <systemTime>2014-12-04T10:16:29.549-08:00</systemTime>
+                <upTime>12:00</upTime>
+            </summary>
+<summary id="20">
+                <ciscoIdentityCapable>false</ciscoIdentityCapable>
+                <contact>infracentral</contact>
+                <deviceId>2</deviceId>
+                <deviceName>xyz</deviceName>
+                <deviceType>Node</deviceType>
+                <ipAddress>192.168.1.125</ipAddress>
+                <location>infracentral</location>
+                <locationCapable>true</locationCapable>
+                <nrPortsDown>2</nrPortsDown>
+                <nrPortsUp>2</nrPortsUp>
+                <productFamily>Cisco</productFamily>
+                <reachability>MANAGED</reachability>
+                <softwareVersion>1.0</softwareVersion>
+                <systemTime>2014-12-04T10:16:29.549-08:00</systemTime>
+                <upTime>12:00</upTime>
+            </summary>
+<summary id="21">
+                <ciscoIdentityCapable>false</ciscoIdentityCapable>
+                <contact>infracentral</contact>
+                <deviceId>2</deviceId>
+                <deviceName>pqr</deviceName>
+                <deviceType>Node</deviceType>
+                <ipAddress>192.168.1.126</ipAddress>
+                <location>infracentral</location>
+                <locationCapable>true</locationCapable>
+                <nrPortsDown>2</nrPortsDown>
+                <nrPortsUp>2</nrPortsUp>
+                <productFamily>Cisco</productFamily>
+                <reachability>MANAGED</reachability>
+                <softwareVersion>1.0</softwareVersion>
+                <systemTime>2014-12-04T10:16:29.549-08:00</systemTime>
+                <upTime>12:00</upTime>
+            </summary>
+</summarys>
+          
+        </inventoryDetailsDTO>
+    </entity>
+</queryResponse>

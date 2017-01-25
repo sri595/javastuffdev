@@ -1,0 +1,34 @@
+
+//By Related Keywords//
+       
+        driver.findElement(By.className(className)
+	driver.findElement(By.cssSelector(selector)
+        driver.findElement(By.id(id)
+	driver.findElement(By.linkText(linkText)
+	driver.findElement(By.name(name)
+	driver.findElement(By.partialLinkText(linkText)
+        driver.findElement(By.tagName(name)
+	driver.findElement(By.xpath(xpathExpression)
+
+Locating Elements By ID
+Locating Element By ClassName
+Locating Element By Tag Name
+Locating Element By Name
+Locating Element By Link Text Or Partial Link Text
+Locating Element By cssSelector
+Locating Element By XPath
+
+Mostly Used Elements 
+
+name, id, CSS and XPath.
+
+Example:--
+
+driver.findElement(By.id("username")).sendKeys("anand@developtest.com")
+driver.findElement(By.id("submitButton")).click(); 
+
+where username is identifier <input type="text" id="username" value="anand@developtest.com">
+where sendKeys value is actual data.
+
+
+

@@ -1,0 +1,320 @@
+<property environment="env" />
+	<property name="label" value="${env.WORKSPACE}"/>
+
+
+http://52.24.127.217:8080/job/TestFramework/buildWithParameters?token=testcasename&testparam=TestJunit
+skrishna@desticorp2.com.com
+BNsc0IwBaduT5Qryw5G4SIulL
+
+mvn deploy:deploy-file -Durl=file:/home/infra3/eclipse_workspace/c2/SFSOAPWS/repo/ -Dfile=sfclient.jar -DgroupId=com.infrascape -DartifactId=sfclient -Dpackaging=jar -Dversion=1.0
+
+mvn deploy:deploy-file -Durl=file:/home/root6/salesforce/SFSOAPWS/repo/ -Dfile=sfjars.jar -DgroupId=com.example -DartifactId=sfjars -Dpackaging=jar -Dversion=1.0
+
+mvn deploy:deploy-file -Durl=file:/home/root6/salesforce/SFSOAPWS/repo/ -Dfile=sfclient.jar -DgroupId=com.infrascape -DartifactId=sfclient -Dpackaging=jar -Dversion=1.0
+
+
+mvn deploy:deploy-file -Durl=file:/home/srikanth/srikanth-projects/salesforce/onforce/repo/ -Dfile=enterprise.jar -DgroupId=com.infrascape -DartifactId=enterprise -Dpackaging=jar -Dversion=1.0
+
+/home/srikanth/srikanth-projects/salesforce/onforce/repo
+
+00Dj0000001tsUf!AR8AQAgB1JtLo7st9WOHtYszQt_ho4fAd5YYcjreBZm.jJlpqcJZk_YYUe8ls9Resx.t51RCI2RrxCf7gFEug0Tt1JfeU6ZX
+
+00Dj00000029B59!AR8AQOIeP8H2LstAA3nPrY5JrnzsiIy3CluHpF1PHDDaknyrtnlmSp7zV4lG7a6fVSamlrD2G8sY0zb8_2ewODw1938qN_Uo
+
+
+
+
+XMLName: InstalledPackage
+XMLName: CustomLabels
+XMLName: StaticResource
+XMLName: Scontrol
+XMLName: AuraDefinitionBundle
+XMLName: ApexComponent
+XMLName: ApexPage
+XMLName: Queue
+XMLName: ExternalDataSource
+XMLName: NamedCredential
+XMLName: Role
+XMLName: Group
+XMLName: CustomObject
+XMLName: ReportType
+XMLName: Report
+XMLName: Dashboard
+XMLName: AnalyticSnapshot
+XMLName: Layout
+XMLName: Document
+XMLName: CustomPageWebLink
+XMLName: QuickAction
+XMLName: FlexiPage
+XMLName: CustomTab
+XMLName: CustomApplicationComponent
+XMLName: CustomApplication
+XMLName: Letterhead
+XMLName: EmailTemplate
+XMLName: Flow
+XMLName: Workflow
+XMLName: AssignmentRules
+XMLName: AutoResponseRules
+XMLName: EscalationRules
+XMLName: PostTemplate
+XMLName: ApprovalProcess
+XMLName: HomePageComponent
+XMLName: HomePageLayout
+XMLName: CustomObjectTranslation
+XMLName: ApexClass
+XMLName: ApexTrigger
+XMLName: Profile
+XMLName: PermissionSet
+XMLName: CustomMetadata
+XMLName: DataCategoryGroup
+XMLName: RemoteSiteSetting
+XMLName: MatchingRules
+XMLName: AuthProvider
+XMLName: CustomSite
+XMLName: ChannelLayout
+XMLName: SharingRules
+XMLName: SharingSet
+XMLName: Community
+XMLName: CallCenter
+XMLName: ConnectedApp
+XMLName: AppMenu
+XMLName: CustomPermission
+XMLName: SiteDotCom
+XMLName: SamlSsoConfig
+XMLName: CorsWhitelistOrigin
+XMLName: ActionLinkGroupTemplate
+XMLName: SynonymDictionary
+XMLName: Settings
+a0Wj0000001kzfVEAQ
+strEnv.trim();
+            objMTlog.OrganizationId__c = strEnv.trim();
+
+
+Final Context Path: /sfinfraws
+L~a5aS0000000HJLWIA4~00DS0000003Km6LMAS~https://emc--OppVis.cs1.my.salesforce.com~00DS0000003Km6L!AQsAQEL_zS5lZNa05jtOcANjLUn0AZdrL1vH7_RGs1PdSVAQ_Ir1aXOR_X4hcqnLIFH98yVlUEpyKrOm0XjGw75h8jXfZPiM~
+Auth successful, got Authorization code: {} aPrxJZTK7Rs03PXLoSV_pU6QVFGzigVlyDZvVcYulhEbYaTaewX2CIReL9d6cxhtplrtSFSRIQ==
+L~a5aS0000000HJLbIAO~00DS0000003Km6LMAS~https://emc--OppVis.cs1.my.salesforce.com~00DS0000003Km6L!AQsAQEL_zS5lZNa05jtOcANjLUn0AZdrL1vH7_RGs1PdSVAQ_Ir1aXOR_X4hcqnLIFH98yVlUEpyKrOm0XjGw75h8jXfZPiM~
+Auth successful, got Authorization code: {} aPrxqJ8A8kLOza8vc1ilOonBiqOvNXVBJCCPTRd6mH7MgVG6chjR.eHotSMnjoDzuMK3MCREaw==
+idURL---------https://login.salesforce.com/id/00D28000000fAHiEAM/00528000000LFWtAAO
+URL --https://ap2.salesforce.com
+ status - 200
+Auth Response: {} {
+  "addr_city": null,
+  "email_verified": true,
+  "locale": "en_US",
+  "addr_state": null,
+  "asserted_user": true,
+  "nick_name": "infrasai1.43883848085532E12",
+  "id": "https://login.salesforce.com/id/00D28000000fAHiEAM/00528000000LFWtAAO",
+  "first_name": "infrasai",
+  "timezone": "America/Los_Angeles",
+  "username": "infrasai@infrascape.com",
+  "mobile_phone": null,
+  "user_id": "00528000000LFWtAAO",
+  "addr_street": null,
+  "status": {
+    "created_date": null,
+    "body": null
+  },
+  "user_type": "STANDARD",
+  "urls": {
+    "sobjects": "https://ap2.salesforce.com/services/data/v{version}/sobjects/",
+    "feeds": "https://ap2.salesforce.com/services/data/v{version}/chatter/feeds",
+    "users": "https://ap2.salesforce.com/services/data/v{version}/chatter/users",
+    "query": "https://ap2.salesforce.com/services/data/v{version}/query/",
+    "enterprise": "https://ap2.salesforce.com/services/Soap/c/{version}/00D28000000fAHi",
+    "recent": "https://ap2.salesforce.com/services/data/v{version}/recent/",
+    "feed_items": "https://ap2.salesforce.com/services/data/v{version}/chatter/feed-items",
+    "search": "https://ap2.salesforce.com/services/data/v{version}/search/",
+    "partner": "https://ap2.salesforce.com/services/Soap/u/{version}/00D28000000fAHi",
+    "rest": "https://ap2.salesforce.com/services/data/v{version}/",
+    "groups": "https://ap2.salesforce.com/services/data/v{version}/chatter/groups",
+    "metadata": "https://ap2.salesforce.com/services/Soap/m/{version}/00D28000000fAHi",
+    "profile": "https://ap2.salesforce.com/00528000000LFWtAAO"
+  },
+  "mobile_phone_verified": false,
+  "photos": {
+    "picture": "https://c.ap2.content.force.com/profilephoto/005/F",
+    "thumbnail": "https://c.ap2.content.force.com/profilephoto/005/T"
+  },
+  "display_name": "infrasai yarraguntla",
+  "last_modified_date": "2015-08-06T05:21:17.000+0000",
+  "email": "skrishna@infrascape.com",
+  "addr_country": "IN",
+  "organization_id": "00D28000000fAHiEAM",
+  "last_name": "yarraguntla",
+  "utcOffset": -28800000,
+  "active": true,
+  "language": "en_US",
+  "addr_zip": null
+}
+baseConnection : L|a5aS0000000HJLbIAO|00DS0000003Km6LMAS|https://emc--OppVis.cs1.my.salesforce.com|00DS0000003Km6L!AQsAQEL_zS5lZNa05jtOcANjLUn0AZdrL1vH7_RGs1PdSVAQ_Ir1aXOR_X4hcqnLIFH98yVlUEpyKrOm0XjGw75h8jXfZPiM
+Conn Strign: com.sforce.ws.ConnectorConfig@c507334
+------https://ap2.salesforce.com
+session Id: 00DS0000003Km6L!AQsAQEL_zS5lZNa05jtOcANjLUn0AZdrL1vH7_RGs1PdSVAQ_Ir1aXOR_X4hcqnLIFH98yVlUEpyKrOm0XjGw75h8jXfZPiM
+Home_URLhttps://emc--OppVis.cs1.my.salesforce.com
+00D28000000fAHiEAM_00528000000LFWtAAO~00D28000000fAHi!ARkAQCoHrl8MmxwPq_29NG5y9QC4VzIGorDGFj1nfYlgStwXhFNB0mIpsnpSQiRnpt0.p8NkrqYQwPe7oW57gz1SxXKiz7OD~https://ap2.salesforce.com~infrasai@infrascape.com
+update : https://ap2.salesforce.com
+com.exception.SFException: com.exception.SFException: [UnexpectedErrorFault [ApiFault  exceptionCode='INVALID_SESSION_ID'
+ exceptionMessage='Invalid Session ID found in SessionHeader: Illegal Session. Session not found, missing session key: 00DS0000003Km6L!AQsAQEL_zS5lZNa05jtOcANjLUn0AZdrL1vH7_RGs1PdSVAQ_Ir1aXOR_X4hcqnLIFH98yVlUEpyKrOm0XjGw75h8jXfZPiM
+This is expected, it can happen if the session has expired and swept away, or if the user logs out, or if its just someone trying to hack in. '
+]
+]
+
+	-------------------------------
+	SFEnvironment_Update_Error:com.exception.SFErrorCodes
+	-------------------------------
+	at com.ds.salesforce.dao.comp.EnvironmentDAO.update(EnvironmentDAO.java:192)
+	at com.oauth.OAuthServlet.saveTokens(OAuthServlet.java:268)
+	at com.oauth.OAuthServlet.getIdDetails(OAuthServlet.java:221)
+	at com.oauth.OAuthServlet.doGet(OAuthServlet.java:155)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:620)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:190)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:611)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:314)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:662)
+Final Context Path: /sfinfraws
+
+Auth URL---https://login.salesforce.com/services/oauth2/authorize?response_type=code&client_id=3MVG9fMtCkV6eLhckipcGtsdEsXpvuj0tgLP6bJJYaFcdwyUC5dmSJ.Oi2e6vkHAZMrNBY6k8y9Qf.QWFahCK&redirect_uri=https%3A%2F%2F183.82.108.79%2Fsfinfraws%2FOAuthServlet%2Fcallback
+L~a5aS0000000HJLgIAO~00DS0000003Km6LMAS~https://emc--OppVis.cs1.my.salesforce.com~00DS0000003Km6L!AQsAQEL_zS5lZNa05jtOcANjLUn0AZdrL1vH7_RGs1PdSVAQ_Ir1aXOR_X4hcqnLIFH98yVlUEpyKrOm0XjGw75h8jXfZPiM~
+Auth successful, got Authorization code: {} aPrxHLAg3XMmPXtg7XEczCFhf3o2G.yA.STcG7dfB69PyfzI6ftEooC2OjCWs2.Wwkz1CAn3EA==
+idURL---------https://login.salesforce.com/id/00Dj00000029B59EAE/005j000000BvpydAAB
+URL --https://na16.salesforce.com
+ status - 200
+Auth Response: {} {
+  "addr_city": null,
+  "email_verified": true,
+  "locale": "en_US",
+  "addr_state": null,
+  "asserted_user": true,
+  "nick_name": "skrishna",
+  "id": "https://login.salesforce.com/id/00Dj00000029B59EAE/005j000000BvpydAAB",
+  "first_name": null,
+  "timezone": "America/Los_Angeles",
+  "username": "skrishna@infrascape.com.copdesti",
+  "mobile_phone": null,
+  "user_id": "005j000000BvpydAAB",
+  "addr_street": null,
+  "status": {
+    "created_date": null,
+    "body": null
+  },
+  "user_type": "STANDARD",
+  "urls": {
+    "sobjects": "https://na16.salesforce.com/services/data/v{version}/sobjects/",
+    "feeds": "https://na16.salesforce.com/services/data/v{version}/chatter/feeds",
+    "users": "https://na16.salesforce.com/services/data/v{version}/chatter/users",
+    "query": "https://na16.salesforce.com/services/data/v{version}/query/",
+    "enterprise": "https://na16.salesforce.com/services/Soap/c/{version}/00Dj00000029B59",
+    "recent": "https://na16.salesforce.com/services/data/v{version}/recent/",
+    "feed_items": "https://na16.salesforce.com/services/data/v{version}/chatter/feed-items",
+    "search": "https://na16.salesforce.com/services/data/v{version}/search/",
+    "partner": "https://na16.salesforce.com/services/Soap/u/{version}/00Dj00000029B59",
+    "rest": "https://na16.salesforce.com/services/data/v{version}/",
+    "groups": "https://na16.salesforce.com/services/data/v{version}/chatter/groups",
+    "metadata": "https://na16.salesforce.com/services/Soap/m/{version}/00Dj00000029B59",
+    "profile": "https://na16.salesforce.com/005j000000BvpydAAB"
+  },
+  "mobile_phone_verified": false,
+  "photos": {
+    "picture": "https://c.na16.content.force.com/profilephoto/005/F",
+    "thumbnail": "https://c.na16.content.force.com/profilephoto/005/T"
+  },
+  "display_name": "Sai",
+  "last_modified_date": "2015-06-01T08:49:55.000+0000",
+  "email": "skrishna@infrascape.com",
+  "addr_country": null,
+  "organization_id": "00Dj00000029B59EAE",
+  "last_name": "Sai",
+  "utcOffset": -28800000,
+  "active": true,
+  "language": "en_US",
+  "addr_zip": null
+}
+baseConnection : L|a5aS0000000HJLgIAO|00DS0000003Km6LMAS|https://emc--OppVis.cs1.my.salesforce.com|00DS0000003Km6L!AQsAQEL_zS5lZNa05jtOcANjLUn0AZdrL1vH7_RGs1PdSVAQ_Ir1aXOR_X4hcqnLIFH98yVlUEpyKrOm0XjGw75h8jXfZPiM
+Current Connection : 00Dj00000029B59EAE~00Dj00000029B59!AR8AQFsGoifwvqraswNEoC6Vq_ktTcZxUPzJVr0dWxxIb9h.QKW.XxGJ88CN02TG4TM0MtKHHTnbveyV.uxnM6KSaXqX08uJ~https://na16.salesforce.com
+Conn Strign: com.sforce.ws.ConnectorConfig@509dd43b
+------https://na16.salesforce.com
+session Id: 00DS0000003Km6L!AQsAQEL_zS5lZNa05jtOcANjLUn0AZdrL1vH7_RGs1PdSVAQ_Ir1aXOR_X4hcqnLIFH98yVlUEpyKrOm0XjGw75h8jXfZPiM
+Home_URLhttps://emc--OppVis.cs1.my.salesforce.com
+00Dj00000029B59EAE_005j000000BvpydAAB~00Dj00000029B59!AR8AQFsGoifwvqraswNEoC6Vq_ktTcZxUPzJVr0dWxxIb9h.QKW.XxGJ88CN02TG4TM0MtKHHTnbveyV.uxnM6KSaXqX08uJ~https://na16.salesforce.com~skrishna@infrascape.com.copdesti
+update : https://na16.salesforce.com
+com.exception.SFException: com.exception.SFException: [UnexpectedErrorFault [ApiFault  exceptionCode='INVALID_SESSION_ID'
+ exceptionMessage='Invalid Session ID found in SessionHeader: Illegal Session. Session not found, missing session key: 00DS0000003Km6L!AQsAQEL_zS5lZNa05jtOcANjLUn0AZdrL1vH7_RGs1PdSVAQ_Ir1aXOR_X4hcqnLIFH98yVlUEpyKrOm0XjGw75h8jXfZPiM
+This is expected, it can happen if the session has expired and swept away, or if the user logs out, or if its just someone trying to hack in. '
+]
+]
+
+	-------------------------------
+	SFEnvironment_Update_Error:com.exception.SFErrorCodes
+	-------------------------------
+	at com.ds.salesforce.dao.comp.EnvironmentDAO.update(EnvironmentDAO.java:192)
+	at com.oauth.OAuthServlet.saveTokens(OAuthServlet.java:269)
+	at com.oauth.OAuthServlet.getIdDetails(OAuthServlet.java:222)
+	at com.oauth.OAuthServlet.doGet(OAuthServlet.java:155)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:620)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:190)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:611)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:314)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:662)
+Final Context Path: /sfinfraws
+https://asa.na34.visual.force.com/apex/QuickDeploy?id=a0861000000xHoE&sfdc.override=1
+
+cisco pi APi
+
+https://developer.cisco.com/site/prime-infrastructure/documents/api-reference/api-reference/
+
+https://developer.cisco.com/media/prime-infrastructure/api-reference/szier-m8-106.cisco.com/webacs/api/v1/data/Devicescc3b.html?_docs
+
+http://localhost:8080/WebserviceRestFul/rest/inventory
+
+
+# JAVA
+export JAVA_HOME=/usr/lib/jvm/java-6-oracle
+export JDK_HOME=/usr/lib/jvm/java-6-oracle
+export JRE_HOME=/usr/lib/jvm/java-6-oracle
+
+# TOMCAT
+export CATALINA_HOME=/home/infra3/installations/tomcat-6
+export CATALINA_BASE=/home/infra3/installations/tomcat-6
+
+# LOCAL PATH setttins
+export PATH=/usr/lib/jvm/java-6-oracle/bin:$CATALINA_HOME/bin:$PATH
+
+
+http://getintopc.com/softwares/operating-systems/red-hat-linux-free-download/
+
+
+http://c-nergy.be/blog/?p=5870
+
+http://askubuntu.com/questions/172384/vnc-grey-screen-and-start-on-boot-12-04
+http://localhost:8080/SampleSoapWebSevice/inventory?wsdl
+
